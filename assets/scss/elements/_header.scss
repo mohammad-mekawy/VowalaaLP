@@ -1,0 +1,84 @@
+
+
+
+/* --------------- header styles --------------- */
+
+
+/* ------------ animation -------- */
+
+// ----------- header style 4 -----------
+header.style-4{
+    position: relative;
+    padding: 60px 0;
+    .content{
+        position: relative;
+        overflow: hidden;
+        .info{
+            .title_small{
+                font-size: 12px;
+                padding: 5px 10px;
+                background-color: #f7f4ff;
+                border-radius: 5px;
+                color: var(--color-blue4);
+            }
+            h1{
+                font-size: 44px;
+                line-height: 60px;
+                color: #000;
+                span{
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-image: linear-gradient(to right,  #961B7F 0%,#9A0D6D 30%,#43278F 30%,#A1AFF0 73%,#F973A3 100%);
+    
+                }
+            }
+            .text{
+                color: #666;
+                font-size: 15px;
+            }
+
+            .play-btn{
+                display: flex;
+                align-items: center;
+                .icon{
+                    width: 42px;
+                    height: 42px;
+                    border: 1px solid #5842bc99;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    i{
+                        color: var(--color-blue4);
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .bubble{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            -webkit-animation: rotate-center 100s linear infinite both;
+                    animation: rotate-center 100s linear infinite both;
+        }
+    }
+    .wave{
+        position: absolute;
+        left: -3%;
+        bottom: -10px;
+        width: 106%;
+        max-width: unset;
+        height: 240px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: top;
+        object-position: top;
+        z-index: 20;
+    }
+
+}
+
