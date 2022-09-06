@@ -4758,59 +4758,6 @@ header.style-4 .wave {
 /* ===============================================================
 			[ * clients Section ] 
 ================================================================*/
-/* --------------- clients style-4 --------------- */
-.clients.style-4 {
-  background-color: #f0eff5;
-  position: relative;
-  z-index: 25;
-}
-
-.clients.style-4 .client-logos {
-  border-bottom: 1px solid #9994;
-}
-
-.clients.style-4 .client-logos .img img {
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
-  opacity: 0.6;
-}
-
-.clients.style-4 .client-logos .img:hover img {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
-  opacity: 1;
-}
-
-/* --------------- clients style 5 --------------- */
-.clients.style-5 .content .img {
-  padding: 30px;
-  text-align: center;
-  border-radius: 20px;
-  border: 1px solid #9994;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 5px;
-  height: 150px;
-}
-
-.clients.style-5 .content .img.img-card {
-  width: 19%;
-}
-
-.clients.style-5 .swiper-wrapper {
-  -webkit-transition-timing-function: linear !important;
-  transition-timing-function: linear !important;
-  position: relative;
-}
-
-/* --------------- clients styles --------------- */
 /* ===============================================================
 			[ * chat-banner Section ] 
 ================================================================*/
