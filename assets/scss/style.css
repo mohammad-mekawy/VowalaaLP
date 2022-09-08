@@ -694,6 +694,7 @@ small.text {
   transition: all 0.4s ease;
   -webkit-box-shadow: 0 5px 10px #0002;
           box-shadow: 0 5px 10px #0002;
+  cursor: pointer;
 }
 
 .to_top small {
@@ -1706,22 +1707,10 @@ small.text {
 }
 
 .section-head.style-5 h2 span {
-  color: var(--color-blue5);
-  position: relative;
-  display: inline-block;
-  padding: 0 5px;
-  margin: 0 5px;
-}
-
-.section-head.style-5 h2 span::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 40%;
-  background-color: var(--color-blue5);
-  opacity: 8%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
+  background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
 }
 
 .section-head.style-5 p {
@@ -3931,112 +3920,6 @@ header.style-4 .wave {
 /* ===============================================================
 			[ * community Section ] 
 ================================================================*/
-/* --------------- community style-4 --------------- */
-.community.style-4 .content {
-  border: 1px solid #9993;
-  border-radius: 15px;
-  padding: 30px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.community.style-4 .content .commun-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 33%;
-  border-right: 1px solid #9993;
-  padding: 20px 0;
-}
-
-.community.style-4 .content .commun-card:last-of-type {
-  border: 0;
-}
-
-.community.style-4 .content .commun-card .icon {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  margin-right: 25px;
-}
-
-.community.style-4 .content .commun-card .icon i {
-  font-size: 60px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
-  background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
-}
-
-.community.style-4 .content .commun-card .inf h5 {
-  font-size: 23px;
-  color: #000;
-  font-weight: bold;
-  margin-bottom: 0;
-  line-height: 1.1;
-}
-
-.community.style-4 .content .commun-card .inf p {
-  font-size: 12px;
-  color: #666;
-}
-
-/* --------------- community style-5 --------------- */
-.community.style-5 .content {
-  border: 1px solid #9993;
-  border-radius: 15px;
-  padding: 20px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.community.style-5 .content .commun-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 33%;
-  border-right: 1px solid #9993;
-  padding: 10px 0;
-}
-
-.community.style-5 .content .commun-card:last-of-type {
-  border: 0;
-}
-
-.community.style-5 .content .commun-card .icon {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  margin-right: 25px;
-}
-
-.community.style-5 .content .commun-card .icon img {
-  -webkit-filter: drop-shadow(-10px 10px 20px #084cba77);
-          filter: drop-shadow(-10px 10px 20px #084cba77);
-  -webkit-animation: scale_up_down 1s ease-in-out infinite alternate both;
-  animation: scale_up_down 1s ease-in-out infinite alternate both;
-}
-
-.community.style-5 .content .commun-card .inf h5 {
-  font-size: 20px;
-  color: #000;
-  font-weight: bold;
-  margin-bottom: 0;
-  line-height: 1.1;
-}
-
 /* ===============================================================
 			[ * faq screenshots ] 
 ================================================================*/
@@ -4236,6 +4119,59 @@ header.style-4 .wave {
 /* ===============================================================
 			[ * clients Section ] 
 ================================================================*/
+/* --------------- clients style-4 --------------- */
+.clients.style-4 {
+  background-color: #f0eff5;
+  position: relative;
+  z-index: 25;
+}
+
+.clients.style-4 .client-logos {
+  border-bottom: 1px solid #9994;
+}
+
+.clients.style-4 .client-logos .img img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  opacity: 0.6;
+}
+
+.clients.style-4 .client-logos .img:hover img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  opacity: 1;
+}
+
+/* --------------- clients style 5 --------------- */
+.clients.style-5 .content .img {
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #9994;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5px;
+  height: 150px;
+}
+
+.clients.style-5 .content .img.img-card {
+  width: 19%;
+}
+
+.clients.style-5 .swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+  position: relative;
+}
+
+/* --------------- clients styles --------------- */
 /* ===============================================================
 			[ * chat-banner Section ] 
 ================================================================*/
