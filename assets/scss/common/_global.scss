@@ -89,7 +89,14 @@ body ul {
     list-style-type: none;
     margin: 0;
 }
-
+.d-style{
+    list-style: disc;
+    padding-left: 15px;
+}
+.n-style{
+    list-style-type: auto;
+    padding-left: 15px;
+}
 .btn-default:active,
 .btn-default:active:focus,
 .btn-default:active:hover,
