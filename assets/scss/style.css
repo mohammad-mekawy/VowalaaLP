@@ -3927,7 +3927,7 @@ header.style-4 .wave {
 .screenshots.style-4 {
   background-color: #f0eff5;
   overflow: hidden;
-  padding-top: 100px;
+  padding-top: 60px;
   position: relative;
   height: 700px;
 }
@@ -3970,7 +3970,7 @@ header.style-4 .wave {
   pointer-events: none;
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: -80px;
   -webkit-transform: translateX(-33%);
           transform: translateX(-33%);
   height: 600px;
