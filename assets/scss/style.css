@@ -905,7 +905,7 @@ small.text {
       -ms-flex-direction: column;
           flex-direction: column;
   position: fixed;
-  right: 20px;
+  right: 10px;
   bottom: 20%;
   height: 120px;
   -webkit-box-pack: justify;
