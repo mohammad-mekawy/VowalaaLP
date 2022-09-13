@@ -740,3 +740,5 @@ small.text {
               transform: scale(1);
     }
   }
+// CTA
+.side-CTA{display:flex;flex-direction:column;position:fixed;right:20px;bottom:20%;height:120px;justify-content:space-between;z-index:99999}.side-CTA a{padding:10px;transition:.5s}.side-CTA a:hover{transform:translateY(-5px)}@media (max-width:768px){.side-CTA{right:5px;height:105px}}

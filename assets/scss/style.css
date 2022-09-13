@@ -896,6 +896,42 @@ small.text {
   }
 }
 
+.side-CTA {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  right: 20px;
+  bottom: 20%;
+  height: 120px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 99999;
+}
+
+.side-CTA a {
+  padding: 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.side-CTA a:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .side-CTA {
+    right: 5px;
+    height: 105px;
+  }
+}
+
 /* ===============================================================
 			[ * buttons Section ] 
 ================================================================*/
