@@ -932,6 +932,35 @@ small.text {
   }
 }
 
+@-webkit-keyframes ripple {
+  50% {
+    -webkit-box-shadow: 0 0 0 40px rgba(244, 68, 56, 0);
+            box-shadow: 0 0 0 40px rgba(244, 68, 56, 0);
+  }
+  to {
+    -webkit-box-shadow: 0 0 0 0 rgba(244, 68, 56, 0);
+            box-shadow: 0 0 0 0 rgba(244, 68, 56, 0);
+  }
+}
+
+@keyframes ripple {
+  50% {
+    -webkit-box-shadow: 0 0 0 40px rgba(244, 68, 56, 0);
+            box-shadow: 0 0 0 40px rgba(244, 68, 56, 0);
+  }
+  to {
+    -webkit-box-shadow: 0 0 0 0 rgba(244, 68, 56, 0);
+            box-shadow: 0 0 0 0 rgba(244, 68, 56, 0);
+  }
+}
+
+.k-ripple {
+  -webkit-box-shadow: 0 0 0 0 rgba(154, 13, 109, 0.35);
+          box-shadow: 0 0 0 0 rgba(154, 13, 109, 0.35);
+  -webkit-animation: ripple 3s infinite;
+          animation: ripple 3s infinite;
+}
+
 /* ===============================================================
 			[ * buttons Section ] 
 ================================================================*/
@@ -1642,6 +1671,19 @@ small.text {
 .butn.hover-blue4:hover small,
 .btn.hover-blue4:hover span,
 .btn.hover-blue4:hover small {
+  color: #fff;
+}
+
+.butn.hover-main:hover,
+.btn.hover-main:hover {
+  background: var(--color-main);
+  border-color: transparent !important;
+}
+
+.butn.hover-main:hover span,
+.butn.hover-main:hover small,
+.btn.hover-main:hover span,
+.btn.hover-main:hover small {
   color: #fff;
 }
 

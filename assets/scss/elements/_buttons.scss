@@ -130,6 +130,16 @@
             }
         }
     }
+    &.hover-main{
+        &:hover{
+            background: var(--color-main);
+            border-color: transparent !important;
+            span,
+            small{
+                color: #fff;
+            }
+        }
+    }
 
     &.hover-blue5{
         &:hover{

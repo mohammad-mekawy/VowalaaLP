@@ -742,3 +742,5 @@ small.text {
   }
 // CTA
 .side-CTA{display:flex;flex-direction:column;position:fixed;right:10px;bottom:20%;height:120px;justify-content:space-between;z-index:99999}.side-CTA a{padding:10px;transition:.5s}.side-CTA a:hover{transform:translateY(-5px)}@media (max-width:768px){.side-CTA{right:5px;height:105px}}
+
+@keyframes ripple{50%{box-shadow:0 0 0 40px rgba(244,68,56,0)}to{box-shadow:0 0 0 0 rgba(244,68,56,0)}}.k-ripple{box-shadow:0 0 0 0 rgba(154,13,109,.35);animation:ripple 3s infinite}
