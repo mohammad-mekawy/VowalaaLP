@@ -4017,6 +4017,13 @@ header.style-4 .wave {
   height: 700px;
 }
 
+.screenshots.style-4 .swiper-slide-active img {
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
 .screenshots.style-4::after {
   position: absolute;
   content: "";

@@ -3,6 +3,12 @@
 
 /* --------------- screenshots style-4 --------------- */
 .screenshots.style-4{
+    .swiper-slide-active{
+        img{
+            transition: 500ms;
+            transform: scale(1.04);
+        }
+    }
     background-color: #f0eff5;
     overflow: hidden;
     padding-top: 60px;
