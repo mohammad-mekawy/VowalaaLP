@@ -6,6 +6,7 @@
     --color-primary: #961b7f;
     --color-secondary: #43278f;
     --color-blue2: #43278f;
+    --color-yellow: #ffd527;
     --color-blue4: #9a0d6d;
     --color-blue5: #43278f;
     --color-blue6: #8b20a7;
@@ -29,6 +30,10 @@
 .bg-main {
     background-color: var(--color-main);
     border-color: var(--color-main);
+}
+.bg-yellow {
+    background-color: var(--color-yellow);
+    border-color: var(--color-yellow);
 }
 
 .color-lightBlue {
