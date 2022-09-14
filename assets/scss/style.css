@@ -967,6 +967,35 @@ small.text {
           animation: ripple 3s infinite;
 }
 
+.bubble-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.bubble-container .bubble {
+  position: absolute;
+  left: 25%;
+  top: 0;
+  z-index: -1;
+  -webkit-animation: rotate-center 100s linear infinite both;
+  animation: rotate-center 100s linear infinite both;
+}
+
+.circle-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.circle-container .img-circle {
+  position: absolute;
+  top: 40px;
+  width: 76%;
+  left: 12%;
+  max-height: unset;
+  -webkit-animation: rotate-center 100s linear infinite both;
+  animation: rotate-center 100s linear infinite both;
+}
+
 /* ===============================================================
 			[ * buttons Section ] 
 ================================================================*/
@@ -2777,7 +2806,7 @@ header.style-4 .wave {
 .about.style-6 .bubbles {
   position: absolute;
   right: 0;
-  top: 0;
+  top: 10%;
   height: 100%;
   width: 50%;
   -o-object-fit: contain;
