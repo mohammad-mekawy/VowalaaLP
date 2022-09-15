@@ -131,12 +131,14 @@
         }
     }
     &.hover-main{
+        background-color: var(--color-main);
+        color: #fff;
         &:hover{
-            background: var(--color-main);
-            border-color: transparent !important;
+            background: transparent;
+            border-color: var(--color-main) !important;
             span,
             small{
-                color: #fff;
+                color: #000;
             }
         }
     }

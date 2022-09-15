@@ -1709,17 +1709,23 @@ small.text {
   color: #fff;
 }
 
+.butn.hover-main,
+.btn.hover-main {
+  background-color: var(--color-main);
+  color: #fff;
+}
+
 .butn.hover-main:hover,
 .btn.hover-main:hover {
-  background: var(--color-main);
-  border-color: transparent !important;
+  background: transparent;
+  border-color: var(--color-main) !important;
 }
 
 .butn.hover-main:hover span,
 .butn.hover-main:hover small,
 .btn.hover-main:hover span,
 .btn.hover-main:hover small {
-  color: #fff;
+  color: #000;
 }
 
 .butn.hover-blue5:hover,
@@ -4358,7 +4364,7 @@ header.style-4 .wave {
 .contact.style-6 .form {
   position: relative;
   z-index: 5;
-  width: 80%;
+  width: 70%;
   margin: 0px auto 0;
 }
 

@@ -169,7 +169,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-6 contact style-6 pt-40 pb-150">
+            <div class="col-lg-6 contact style-6 pt-20 pb-150">
               <form action="contact.php" class="form" method="post">
                 <div class="row">
                   <h3 class="mb-30 text-white text-light text-center">
@@ -220,13 +220,32 @@
                   </div>
                   <div class="col-lg-12">
                     <div class="form-group mb-20">
-                      <input
-                        type="text"
+                      <select
                         name="INDUSTRY"
+                        id="V-INDUSTRY"
                         class="form-control"
-                        placeholder="INDUSTRY"
-                        required
-                      />
+                      >
+                        <optgroup>
+                          <option value="INDUSTRY" disabled>
+                            Choose an Industry
+                          </option>
+                          <option value="logistics">logistics</option>
+                          <option value="wholesale">wholesale</option>
+                          <option value="hospitality">hospitality</option>
+                          <option value="education">education</option>
+                          <option value="food and beverages">
+                            food and beverages
+                          </option>
+                          <option value="fashion">fashion</option>
+                          <option value="healthcare">healthcare</option>
+                          <option value="manufacturing">manufacturing</option>
+                          <option value="financial services">
+                            financial services
+                          </option>
+                          <option value="retail">retail</option>
+                          <option value="other">other</option>
+                        </optgroup>
+                      </select>
                     </div>
                   </div>
                   <div class="col-lg-12 text-center">
@@ -1084,7 +1103,7 @@
           <div class="d-flex align-items-center justify-content-center mt-50">
             <a
               href="mailto:Sales@vowalaa.com"
-              class="btn rounded-pill bg-main fw-bold text-white me-4"
+              class="btn rounded-pill hover-main fw-bold border-main me-4"
             >
               <small>
                 <i class="fa fa-mail-bulk me-2 pe-2 border-end"></i>
