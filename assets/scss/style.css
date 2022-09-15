@@ -102,6 +102,10 @@ TABLE OF CONTENTS:-
   border-color: var(--color-yellow);
 }
 
+.bg-yellow:hover {
+  color: #fff !important;
+}
+
 .color-lightBlue {
   color: var(--color-lightBlue);
 }

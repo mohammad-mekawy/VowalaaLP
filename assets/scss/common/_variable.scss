@@ -34,6 +34,9 @@
 .bg-yellow {
     background-color: var(--color-yellow);
     border-color: var(--color-yellow);
+    &:hover{
+        color: #fff !important;
+    }
 }
 
 .color-lightBlue {
