@@ -4368,6 +4368,10 @@ header.style-4 .wave {
   margin: 0px auto 0;
 }
 
+.contact.style-6 .form select {
+  text-transform: capitalize;
+}
+
 .contact.style-6 .content {
   position: relative;
   border-top: 10px solid var(--color-blue6);
